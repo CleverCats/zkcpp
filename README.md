@@ -52,6 +52,12 @@
     // 删除节点
     bool delete_node(const char *path);
 
+    // 异步CRUD
+    void create_node_async(const char* path, const char* data, int statu);
+    void read_node_async(const char* path);
+    void update_node_async(const char* path, const char* data);
+    void delete_node_async(const char* path);
+
     /*
         brief 获取分布式锁, 需保证zksever中lockpath存在否则异常
         @param lockpath: zk锁路径
