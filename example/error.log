@@ -1,0 +1,8 @@
+2023/11/09 11:32:20 [info] 20827: success get timeout-config 3000
+2023/11/09 11:32:20 [info] 20827: connected to zookeeper server
+2023/11/09 11:32:23 [info] 20827: failed to create node /lock 
+2023/11/09 11:32:23 [info] 20827: success to create node: /node1
+2023/11/09 11:32:23 [info] 20827: success create node: /node2
+2023/11/09 11:32:28 [info] 20827: success update node async
+2023/11/09 11:32:38 [info] 20827: success to delete node: /node1
+2023/11/09 11:32:38 [info] 20827: success update node async
