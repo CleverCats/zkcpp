@@ -1,7 +1,7 @@
 # zookkeeper c/c++ crud+分布式锁的实现及封装
 
 ## 功能
-    一、zookeeper c/c++ crud非异步接口的封装
+    一、zookeeper c/c++ crud 同步与异步接口的封装
     二、基于临时顺序节点分布式可重入锁接口的实现
 
 ## zookeeper_c依赖安装
